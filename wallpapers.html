@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+
+        <link rel="stylesheet" href="css/style.css">
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500&display=swap" rel="stylesheet">
+        <script src="js/svg-inject.min.js"></script>
+
+        <!-- Imagem na aba -->
+        <link rel="icon" href="img/spider_logo_aba.png">    
+
+        <title>Spider-Man: Miles Morales</title>
+
+    </head>
+
+    <body>
+
+        <!--======== HEADER ===========-->
+        <header>
+            <nav class="navbar">
+                <div class="nav-menu">
+                    <div class="logo">
+                        <a href=""><img style="max-width: 96px;" src="svg/logo-spidermanbig.svg"
+                                onload="SVGInject(this)" /></a>
+                    </div>
+                    <ul class="nav-list">
+                        <li><a href="index.html" class="nav-link">Home</a></li>
+                        <li><a href="historia.html" class="nav-link">História</a></li>
+                        <li><a href="wallpapers.html" class="nav-link">Wallpapers</a></li>
+                        <li><a href="#" class="nav-link" style="color: #EA1D22; font-style: italic;">#BeYourself</a></li>
+                    </ul>
+                </div>
+                <div class="nav-social">
+                    <a href="https://pt-br.facebook.com/insomniacgames/" target="_blank">
+                        <img src="svg/icon-facebook.svg" onload="SVGInject(this)" />
+                    </a>
+                    <a href="https://www.instagram.com/insomniacgames/" target="_blank">
+                        <img src="svg/icon-instagram.svg" onload="SVGInject(this)" />
+                    </a>
+                    <a href="https://www.youtube.com/c/insomniacgames/featured" target="_blank">
+                        <img src="svg/icon-youtube.svg" onload="SVGInject(this)" />
+                    </a> 
+                    <a href="https://twitter.com/insomniacgames" target="_blank">
+                        <img src="svg/icon-twitter.svg" class="mr-2" onload="SVGInject(this)" />
+                    </a>
+
+
+                </div>
+                <div class="bx mr-3"></div>
+
+            </nav>
+        </header>
+
+
+
+        <!--======== CONTENT ===========-->
+
+        <div class="container wrapper">
+            <div class="gallery">
+                <div class="image"><span><img src="img/img1.jpg" alt="Spider-Man Wallpaper"></span></div>
+                <div class="image"><span><img src="img/img2.jpg" alt="Spider-Man Wallpaper"></span></div>
+                <div class="image"><span><img src="img/img3.jpg" alt="Spider-Man Wallpaper"></span></div>
+                <div class="image"><span><img src="img/img4.jpg" alt="Spider-Man Wallpaper"></span></div>
+                <div class="image"><span><img src="img/img5.jpg" alt="Spider-Man Wallpaper"></span></div>
+                <div class="image"><span><img src="img/img6.jpg" alt="Spider-Man Wallpaper"></span></div>
+                <div class="image"><span><img src="img/img7.jpg" alt="Spider-Man Wallpaper"></span></div>
+                <div class="image"><span><img src="img/img8.jpg" alt="Spider-Man Wallpaper"></span></div>
+                <div class="image"><span><img src="img/img9.jpg" alt="Spider-Man Wallpaper"></span></div>
+            </div>
+        </div>
+
+        <div class="preview-box">
+            <div class="details">
+                <span class="title">
+                    Imagem <p class="current-img">3</p>
+                    de <p class="total-img">9</p>
+                </span>
+                <span><ion-icon class="icon" name="close-outline" style="font-size: 25px;"></ion-icon></span>
+            </div>
+
+            <div class="img-box">
+                <div class="slide prev">
+                    <ion-icon name="chevron-back-outline"></ion-icon>
+                </div>
+                <div class="slide next">
+                    <ion-icon name="chevron-forward-outline"></ion-icon>
+                </div>
+                <img src="img/img9.jpg" alt="Spider-Man Wallpaper">
+            </div>
+        </div>
+
+
+        <!--========== JAVASCRIPT ==========-->
+        <script src="js/gallery.js"></script>
+        <script src="js/app_wallpaper.js"></script>
+       
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+
+    </body>
+</html>

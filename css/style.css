@@ -603,6 +603,7 @@ h1 {
 .gallery .image {
   width: 33.3333333333%;
   padding: 20px;
+  cursor: pointer;
 }
 @media screen and (max-width: 1140px) and (min-width: 540px) {
   .gallery .image {

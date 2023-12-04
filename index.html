@@ -13,11 +13,11 @@
         <script src="js/svg-inject.min.js"></script>
 
         <!-- Imagem na aba -->
-        <link rel="icon" href="img/spider_logo_aba.png">    
+        <link rel="icon" href="assets/img/spider_logo_aba.png">    
 
         <title>Spider-Man: Miles Morales</title>
-
     </head>
+
 
     <body>
 
@@ -38,34 +38,31 @@
             <nav class="navbar">
                 <div class="nav-menu">
                     <div class="logo">
-                        <a href=""><img style="max-width: 96px;" src="svg/logo-spidermanbig.svg"
+                        <a href=""><img style="max-width: 96px;" src="assets/svg/logo-spidermanbig.svg"
                                 onload="SVGInject(this)" /></a>
                     </div>
                     <ul class="nav-list">
                         <li><a href="index.html" class="nav-link">Home</a></li>
-                        <li><a href="historia.html" class="nav-link">História</a></li>
-                        <li><a href="wallpapers.html" class="nav-link">Wallpapers</a></li>
+                        <li><a href="pages/historia.html" class="nav-link">História</a></li>
+                        <li><a href="pages/wallpapers.html" class="nav-link">Wallpapers</a></li>
                         <li><a href="#" class="nav-link" style="color: #EA1D22; font-style: italic;">#BeYourself</a></li>
                     </ul>
                 </div>
                 <div class="nav-social">
                     <a href="https://pt-br.facebook.com/insomniacgames/" target="_blank">
-                        <img src="svg/icon-facebook.svg" onload="SVGInject(this)" />
+                        <img src="assets/svg/icon-facebook.svg" onload="SVGInject(this)" />
                     </a>
                     <a href="https://www.instagram.com/insomniacgames/" target="_blank">
-                        <img src="svg/icon-instagram.svg" onload="SVGInject(this)" />
+                        <img src="assets/svg/icon-instagram.svg" onload="SVGInject(this)" />
                     </a>
                     <a href="https://www.youtube.com/c/insomniacgames/featured" target="_blank">
-                        <img src="svg/icon-youtube.svg" onload="SVGInject(this)" />
+                        <img src="assets/svg/icon-youtube.svg" onload="SVGInject(this)" />
                     </a> 
                     <a href="https://twitter.com/insomniacgames" target="_blank">
-                        <img src="svg/icon-twitter.svg" class="mr-2" onload="SVGInject(this)" />
+                        <img src="assets/svg/icon-twitter.svg" class="mr-2" onload="SVGInject(this)" />
                     </a>
-
-
                 </div>
                 <div class="bx mr-3"></div>
-
             </nav>
         </header>
 
@@ -73,7 +70,7 @@
         <!--======== BG-VIDEO ===========-->
         <section class="bg-video">
             <video class="video" preload="none" autoplay muted loop>
-                <source src="video/spiderman2.mp4" type="video/mp4">
+                <source src="assets/video/spiderman2.mp4" type="video/mp4">
             </video>
         </section>
         
@@ -82,7 +79,7 @@
         <section class="container">
             <div class="container-item-1" style="margin-top: 60px">
                 <p class="px-1 item-1">
-                    <img src="img/spiderman-text.png" onload="SVGInject(this)" />
+                    <img src="assets/img/spiderman-text.png" onload="SVGInject(this)" />
                 </p>
 
                 <p class="my-2 item-2">
@@ -94,13 +91,13 @@
                     <a href="https://www.youtube.com/watch?v=qjRzm9A7DU4" class="ml-3 btn-secondary" target="_blank">Assista ao trailer</a>
                 </p>
                 <p class="mt-2 flex align-items-center item-4">
-                    <img src="svg/ps.svg" class="w-auto" style="cursor: pointer;" onload="SVGInject(this)" />
-                    <img src="svg/marvel.svg" class="ml-2 w-auto " style="cursor: pointer;" onload="SVGInject(this)" />
+                    <img src="assets/svg/ps.svg" class="w-auto" style="cursor: pointer;" onload="SVGInject(this)" />
+                    <img src="assets/svg/marvel.svg" class="ml-2 w-auto " style="cursor: pointer;" onload="SVGInject(this)" />
                 </p>
             </div>
             <div class="container-item-2 item-5" style="margin-top: 90px;">
                 <div class="js-tilt">
-                    <img src="img/spider-man.png" class="spiderman" onload="SVGInject(this)" />
+                    <img src="assets/img/spider-man.png" class="spiderman" onload="SVGInject(this)" />
                 </div>
             </div>
         </section>
@@ -113,11 +110,9 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
 
         <script>
-
             $('.js-tilt').tilt({
                 perspective: 2200
             });
         </script>
-
     </body>
 </html>

@@ -335,6 +335,7 @@ align-items: center;
 .gallery .image{
   width: calc(100% / 3);
   padding: 20px;
+  cursor: pointer;
 
   @include responsive(m){
     width: calc(100% / 2);
